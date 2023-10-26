@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto:ital@1&family=Tilt+Neon&family=Young+Serif&display=swap');
+/* Begin Reset */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+img{
+    display:block;
+}
+/* End Reset*/
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1.5rem;
+    min-height:100vh;
+}
+.opacity{
+    background-color: #0000006f;
+}
+.practise{
+    border-bottom:2px solid #000;
+    padding:5px;
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+    align-items:center; 
+    background-color:rgb(238, 255, 0);
+    background-image: url('../images/d3451114ab4e1d55ead624930bcff60c.jpg');
+    background-size: cover;
+}
+.profile-pic{
+    width:35%;
+    
+}
+.profile-pic img{
+    width:100%;
+    height:auto;
+    border-radius: 50%;
+    min-width: 100px;
+    border:5px double gray;
+}
+.h1{
+    font-size:500%;
+    color:aliceblue;
+    text-shadow:2px 2px 5px #000 ;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.offscreen{
+    position:absolute;
+    left:-10000px;
+}
